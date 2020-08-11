@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: LOGIN Katalon 2
+Description: </description>
+   <name>IN-4</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10032&quot;:&quot;@tag\nFeature: Login feature\n  I want to make login\n\n  @login\n  Scenario Outline: Login\n    Given I navigate to a login website\n    When I make login with \u003cusername\u003e and \u003cpassword\u003e\n    And It displays an error \u003cerror\u003e\n    Then I close the browser\n\n    Examples: \n      | username | password | error        |\n      | srepetop | srepetop | Failed Login |&quot;,&quot;customfield_10000&quot;:&quot;{}&quot;,&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;El enlace principal solo está disponible para los usuarios de Jira Premium.&quot;}},&quot;customfield_10019&quot;:&quot;0|i0000n:&quot;},&quot;status&quot;:{&quot;id&quot;:1,&quot;description&quot;:&quot;La incidencia está abierta y lista para que el responsable empiece a trabajar en ella.&quot;,&quot;iconUrl&quot;:&quot;https://srepetop.atlassian.net/images/icons/statuses/open.png&quot;,&quot;self&quot;:&quot;https://srepetop.atlassian.net/rest/api/2/status/1&quot;,&quot;name&quot;:&quot;Abierta&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://srepetop.atlassian.net/rest/api/2/project/10001&quot;,&quot;key&quot;:&quot;IN&quot;,&quot;id&quot;:10001,&quot;name&quot;:&quot;Integration&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;LOGIN Katalon 2&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;srepetop@everis.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Susana Repeto&quot;,&quot;self&quot;:&quot;https://srepetop.atlassian.net/rest/api/2/user?accountId\u003d5f1185289e8ba30016d99419&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://srepetop.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://srepetop.atlassian.net/rest/api/2/issue/IN-4/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://srepetop.atlassian.net/rest/api/2/issue/10005&quot;,&quot;key&quot;:&quot;IN-4&quot;,&quot;id&quot;:10005}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>137e15cc-7876-4176-8d4a-e070795e8f87</testCaseGuid>
+</TestCaseEntity>

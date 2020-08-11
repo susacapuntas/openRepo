@@ -1,0 +1,13 @@
+plugins {
+  id 'java'
+  id "com.katalon.gradle-plugin" version "0.0.7"
+}
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  compile 'com.codeborne:selenide:4.12.3'
+  compile group: 'com.katalon', name: 'katalium', version: '1.0.4'
+}
